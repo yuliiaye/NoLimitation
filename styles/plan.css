@@ -1,0 +1,55 @@
+p.thought {
+    position: relative;
+    width: max-content;
+    height: 100px;
+    padding: 30px 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #fff;
+    border: 2px solid #666;
+    -webkit-border-radius: 58px;
+    -moz-border-radius: 58px;
+    border-radius: 98px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+}
+p.after {
+	left: 10px;
+    top: 70px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid #666;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+}
+p.after1 {
+    width: 20px;
+    height: 20px;
+    left: 5px;
+    top: 100px;
+    margin: 0 0 10px 0;
+    background-color: #fff;
+    border: 2px solid #666;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+}
+
+#thought {
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+
+#thought1 {
+    position: relative;
+    left: 500px;
+}
+
+#thought2 {
+    position: relative;
+    left: 150px;
+}

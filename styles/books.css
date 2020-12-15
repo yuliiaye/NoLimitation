@@ -1,0 +1,30 @@
+section div {
+    display: flex;
+}
+
+section .book-cover {
+    width: 180px;
+    margin: 20px 0 30px 0;
+}
+
+section p {
+    margin: 20px 0 30px 20px;
+}
+
+#books {
+    display: flex;
+    justify-content: space-around;
+}
+
+#books section {
+    width: 300px;
+
+}
+
+#books section h2 {
+    line-height: 30px !important;
+}
+
+#books section img {
+    margin: 0 auto;
+}
