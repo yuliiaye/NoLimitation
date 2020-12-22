@@ -11,19 +11,19 @@ header #nl-logo {
     width: 500px;
 }
 
-header {
+header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-main #image {
+header #image {
     background: url(../images/purposeful-guy.jpg) center;
     height: 500px;
     position: relative;
 }
 
-main #image #quote {
+header #image #quote {
     position: absolute;
     left: 20px;
     bottom: 20px;
