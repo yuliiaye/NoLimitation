@@ -37,6 +37,7 @@ h1 {
     font-weight: bold;
     font-size: 20px;
     line-height: 65px;
+    text-align: center;
 }
 
 h2 {
@@ -52,7 +53,7 @@ h3 {
 
 ul {
     position: relative;
-    left: 50px;
+    left: 30px;
     list-style-type: circle;
 }
 
