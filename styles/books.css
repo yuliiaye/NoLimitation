@@ -2,10 +2,6 @@ section div {
     display: flex;
 }
 
-section {
-    margin: 10px;
-}
-
 section .book-cover {
     width: 180px;
     margin: 20px 0 30px 0;
