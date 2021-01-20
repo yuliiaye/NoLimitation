@@ -71,7 +71,7 @@ main {
 }
 
 main .text {
-    padding: 0 10px;
+    padding: 0px 10px 30px 10px;
 }
 
 h1 {
@@ -81,8 +81,13 @@ h1 {
     text-align: center;
 }
 
+h1.heading {
+    text-transform: uppercase;
+}
+
 h2 {
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-style: italic;
     font-size: 18px;
     line-height: 50px;
 }
@@ -98,24 +103,24 @@ ul {
     list-style-type: circle;
 }
 
-footer {
+#footer {
     display: flex;
     justify-content: flex-end;
     position: relative;
     width: 1000px;
     margin: 0 auto;
-    background-color: rgba(181, 159, 159, 0.7);
+    /* background-color: rgba(181, 159, 159, 0.7); */
 
 }
 
-/* #footer {
+footer {
     background-color: rgba(181, 159, 159, 0.7);
-} */
+}
 
 footer a {
     position: absolute;
     left: 10px;
-    bottom: 50px;
+    bottom: 40px;
 }
 
 footer #logo-with-slogan {
