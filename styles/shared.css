@@ -1,36 +1,73 @@
-html, body {
+/* html, */
+body {
     min-width: 1000px;
-    width: 100px;
-    margin: 0 auto;
+    /* width: 100px; */
+    /* margin: 0 auto; */
     font-family: 'Aleo', serif;
     line-height: 30px;
     text-align: justify;
+    background-color: rgba(181, 159, 159, 0.5);
 }
 
 header #nl-logo {
-    width: 500px;
+    width: 600px;
+    height: 73px;
+}
+
+#nl-logo img {
+    height: 73px;
+}
+
+header #nav {
+    background-color: rgba(255, 255, 255, 1);
+    border: 0.5px solid rgba(181, 159, 159, 1);
+    height: 73px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
 header nav {
     display: flex;
-    justify-content: space-around;
+    position: fixed;
+    z-index: 1;
+    justify-content: space-between;
     align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header #image, main, footer {
+    position: relative;
+    top: 73px;
 }
 
 header #image {
     background: url(../images/purposeful-guy.jpg) center;
+    background-repeat: no-repeat;
+    width: 1000px;
     height: 500px;
     position: relative;
+    margin: 0 auto;
 }
 
 header #image #quote {
     position: absolute;
-    left: 20px;
+    width: 980px;
+    /* left: 20px; */
+    padding-left: 20px;
     bottom: 20px;
     color: black;
     font-size: 17px;
-    line-height: 20px;
+    line-height: 23px;
     text-shadow: 0.5px 0.5px 0.5px grey;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(181, 159, 159, 0.3);
 }
 
 h1 {
@@ -61,6 +98,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     position: relative;
+    background-color: rgba(181, 159, 159, 0.7);
 }
 
 footer a {
