@@ -20,7 +20,7 @@ header #nl-logo {
 
 header #nav {
     background-color: rgba(255, 255, 255, 1);
-    border: 0.5px solid rgba(181, 159, 159, 1);
+    border-bottom: 0.5px solid rgba(181, 159, 159, 1);
     height: 73px;
     position: fixed;
     z-index: 1;
@@ -35,6 +35,25 @@ header nav {
     align-items: center;
     width: 1000px;
     margin: 0 auto;
+}
+
+header nav a[href] {
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: rgb(48, 48, 48);
+    text-shadow: rgb(254, 231, 138) 1px 0 10px;
+} 
+
+header nav a:active, header nav a.currentLink {
+    color: rgb(130, 104, 104);
+    font-size: 15px;
 }
 
 header #image, main, footer {
@@ -67,7 +86,7 @@ header #image #quote {
 main {
     width: 1000px;
     margin: 0 auto;
-    background-color: rgba(181, 159, 159, 0.3);
+    background-color: rgba(181, 159, 159, 0.2);
 }
 
 main .text {
@@ -121,6 +140,8 @@ footer a {
     position: absolute;
     left: 10px;
     bottom: 40px;
+    color: rgb(48, 48, 48);
+    text-decoration: none;
 }
 
 footer #logo-with-slogan {
